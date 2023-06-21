@@ -1,0 +1,152 @@
+.sidebar {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 56px;
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 26px;
+  background-color: white;
+  z-index: 3;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+.home-container:hover {
+  background-color: gray;
+}
+.home {
+  height: 24px;
+}
+.home-text {
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  margin-top: 6px;
+}
+.explore-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.explore-container:hover {
+  background-color: lightgray;
+}
+.explore {
+  height: 24px;
+}
+.explore-text {
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  margin-top: 6px;
+}
+.subscript-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+.subscript {
+  height: 24px;
+}
+.subscript-text {
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  margin-top: 6px;
+}
+.originals-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+.originals {
+  height: 24px;
+}
+.originals-text {
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  margin-top: 6px;
+}
+.youtube-music-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+.youtube-music {
+  height: 24px;
+}
+.youtube-music-text {
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  margin-top: 6px;
+}
+.profile1-absolute {
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 2px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  background-color: black;
+  color: white;
+}
+.profile2-absolute {
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 2px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  background-color: black;
+  color: white;
+}
+.profile3-absolute {
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 2px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  background-color: black;
+  color: white;
+}
+.notif-absolute {
+  font-family: Roboto, Arial;
+  font-size: 10px;
+  position: absolute;
+  top: -1px;
+  right: -3px;
+  background-color: rgb(195, 1, 1);
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
