@@ -6,22 +6,27 @@
   width: 72px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
   padding-top: 20px;
-  padding-bottom: 26px;
-  background-color: white;
-  z-index: 3;
+background-color: white;
+  z-index: 200;
+}
+.sidebar-link {
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+.sidebar-link:hover {
+  opacity: 1;
+  background-color: lightgray;
 }
 .home-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   cursor: pointer;
-  
-}
-.home-container:hover {
-  background-color: gray;
+  margin-bottom: 1px;
+  padding: 10px;
 }
 .home {
   height: 24px;
@@ -36,10 +41,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px;
   cursor: pointer;
-}
-.explore-container:hover {
-  background-color: lightgray;
 }
 .explore {
   height: 24px;
@@ -53,6 +56,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 10px;
   cursor: pointer;
 }
 .subscript {
@@ -67,6 +72,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 10px;
   cursor: pointer;
 }
 .originals {
@@ -81,6 +88,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px;
   cursor: pointer;
 }
 .youtube-music {
@@ -91,50 +100,21 @@
   font-family: Roboto, Arial;
   margin-top: 6px;
 }
-.profile1-absolute {
-  font-family: Roboto,Arial;
-  font-size: 12px;
-  font-weight: 500;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 2px;
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  background-color: black;
-  color: white;
+.library-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
 }
-.profile2-absolute {
-  font-family: Roboto,Arial;
-  font-size: 12px;
-  font-weight: 500;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 2px;
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  background-color: black;
-  color: white;
+.library-icon {
+  height: 24px;
 }
-.profile3-absolute {
-  font-family: Roboto,Arial;
-  font-size: 12px;
-  font-weight: 500;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 2px;
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  background-color: black;
-  color: white;
+.library-text {
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  margin-top: 6px;
 }
 .notif-absolute {
   font-family: Roboto, Arial;
